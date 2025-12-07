@@ -3,7 +3,7 @@
 1. Installs all **developer tools + common software** (as before).
 2. **Configures key developer settings** automatically:
 
-   * **Git**: username, email, default branch, credential manager
+   * **Git**: username, email, default branch, credential manager (change with your real credentials)
    * **VS Code**: installs popular extensions
    * **Node.js**: installs useful global packages
    * **Python**: upgrades pip, installs virtualenv
@@ -11,7 +11,8 @@
 3. Sets **PATH** for important tools if needed.
 
 Here’s the **ultimate “one-click dev setup” script**:
-
+---
+** Edit and remove any tool that you dont need
 ---
 
 ```powershell
